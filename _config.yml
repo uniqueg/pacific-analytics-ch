@@ -1,0 +1,12 @@
+title: Pacific Analytics
+description: "The 21st century operating system for R&D."
+baseurl: ""
+url: "https://pacificanalytics.ch"
+
+# --- Content Configuration ---
+consultancy:
+  message: "Great things are in the making. While you wait, why not visit our consultancy branch at"
+  link_text: "pacificanalytics.com"
+  link_url: "https://pacificanalytics.com"
+  logo_url: "/assets/images/logo.png"
+  message_suffix: "?"

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.ico' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=1' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="{{ site.design.font_url }}" rel="stylesheet">
+</head>
+<body>
+
+  <main class="content-wrapper">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <span class="separator">|</span>
+      <a href="{{ '/legal/imprint' | relative_url }}">Imprint</a>
+      <span class="separator">|</span>
+      <a href="{{ '/legal/privacy' | relative_url }}">Data Privacy</a>
+    </div>
+    <div class="copyright">
+      &copy; {{ site.time | date: '%Y' }} {{ site.title }} GmbH
+    </div>
+  </footer>
+
+</body>
+</html>
